@@ -6,11 +6,11 @@
 
 /dts-v1/;
 
-#include "rk3568-hinlink-h6xk.dtsi"
+#include "rk3568-linkstar-h6xk.dtsi"
 
 / {
-	model = "HINLINK H68K";
-	compatible = "hinlink,h68k", "rockchip,rk3568";
+	model = "Linkstar-H68K";
+	compatible = "linkstar,h68k", "rockchip,rk3568";
 
 	aliases {
 		ethernet0 = &gmac0;
